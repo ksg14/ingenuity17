@@ -1,0 +1,45 @@
+.jumbotron{
+
+  height: 750px;
+  background-color: ;
+
+}
+
+body{
+	text-align: center;
+	background: #00ECB9;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 20px;
+}
+
+#clockdiv > div{
+	padding: 2px;
+	border-radius: 2px;
+	background: #00BF96;
+
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 3px;
+	border-radius: 2px;
+/*	background: #00816A;
+*/
+  display: inline-block;
+}
+
+.smalltext{
+	padding-top: 3px;
+	font-size: 15px;
+  background: #00BF96;
+}
