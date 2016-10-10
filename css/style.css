@@ -1,13 +1,35 @@
 .jumbotron{
 
-  height: 750px;
-  background-color: ;
+  /*height: 750px;
+  background-color: ;*/
+
 
 }
 
-body{
+
+.row-header{
+  height: 200px;
+  padding:10px;
+  padding-top: 20px;
+
+
+}
+
+.timer-header{
+  background-color: ;
+}
+
+.logo-header{
+  background-color: ;
+}
+
+.social-header{
+  background-color: ;
+}
+
+.timer_div{
 	text-align: center;
-	background: #00ECB9;
+	background: ;
   font-family: sans-serif;
   font-weight: 100;
 }
