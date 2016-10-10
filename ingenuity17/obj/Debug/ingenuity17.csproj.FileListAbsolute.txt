@@ -1,0 +1,5 @@
+C:\Users\SHRONIT\Documents\Visual Studio 2008\Projects\ingenuity17\ingenuity17\bin\ingenuity17.dll
+C:\Users\SHRONIT\Documents\Visual Studio 2008\Projects\ingenuity17\ingenuity17\bin\ingenuity17.pdb
+C:\Users\SHRONIT\Documents\Visual Studio 2008\Projects\ingenuity17\ingenuity17\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SHRONIT\Documents\Visual Studio 2008\Projects\ingenuity17\ingenuity17\obj\Debug\ingenuity17.dll
+C:\Users\SHRONIT\Documents\Visual Studio 2008\Projects\ingenuity17\ingenuity17\obj\Debug\ingenuity17.pdb
