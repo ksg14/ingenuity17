@@ -45,10 +45,10 @@
   background: black;
 }
 
-.container{
+.container1{
 	width: 100%;
-	height: 100vh;
-
+	height: 100%;
+	z-index: -1;
 	background-image: url('../images/Stars2.jpg');
 	background-size: cover;
 	background-position: top center;
