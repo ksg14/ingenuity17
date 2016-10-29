@@ -13,13 +13,39 @@
 	<link href="css/responsive.css" rel="stylesheet">
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" media="screen" >
   	<link rel="stylesheet" href="css/style.css" media="screen">
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/nav_menu.js"></script>
+	<script type="text/javascript" src="scripts/scroll.js"></script>
+    <link rel="stylesheet" href="css/nav_menu.css">
 
 
 
 </head><!--/head-->
 
 <body>
-	<section class="container1">	
+
+  <!--nav_menu-->
+  <div class="main-nav">
+            <div class="wrapper" role="button">
+            <!-- Container for collapsed menu white bars -->
+                <span class="bars"></span>
+                <span class="bars"></span>
+                <span class="bars"></span>
+            </div>
+
+            <div class="menu-items">
+            <!-- Container for expanded menu items -->
+                <ul class="hide">
+                    <a href="#for_nav_menu"><li>Home</li></a>
+                    <a href="#about"><li>About</li></a>
+                    <a href="#sponsor"><li>Sponsors</li></a>
+                    <a href="#event"><li>Events</li></a>
+                </ul>
+            </div>
+    </div>
+    <!--nav_menu-->
+
+	<section class="container1" id="for_nav_menu" >
 		<div class="row" >
 			<div class="col-xs-12 col-sm-3 col-md-4 col-lg-3 row1-header">
 				<div class="timer_div">
@@ -47,17 +73,17 @@
 				<img src="images/logow.png" class="logo-image">
 			</div>
 			<div class="col-xs-12 col-sm-3 col-md-4 col-lg-3 row1-header">
-				
-			</div>	
+
+			</div>
 		</div>
 		<div class="row">
 			<div class="col-xs-12 col-sm-3 col lg-3"></div>
 			<div class="col-xs-12 col-sm-6 col lg-8"></div>
 			<div class="col-xs-6 col-sm-3 col-lg-1">
 				<iframe src='https://www.juicer.io/api/feeds/news-feed-ingenuity/iframe' frameborder='0' width='300' height='700' style='display:block;'></iframe>
-			</div>	
+			</div>
 		</div>
-	</section>		
+	</section>
 
 	<section id="home">
 		<div id="main-slider" class="carousel slide" data-ride="carousel">
@@ -264,7 +290,6 @@
 
 
     <script src="scripts/timer.js"></script>
-    <script type="text/javascript" src="scripts/jquery.js"></script>
     <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
 
 
