@@ -1,19 +1,128 @@
-.row-header{
-  height: 200px;
-  padding:10px;
-  padding-top: 20px;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
 
+a {
+    text-decoration: none;
+}
+
+ul , li { 
+    list-style: none; 
+}
+
+form ,select , input { 
+    padding:0;
+    outline:none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* ### STATIC BORDER CSS ### */
+
+.static-border {
+    position: fixed;
+    
+    height: 100vh;
+    width: 100%;
+
+    border: white dotted 20px;
+}
+
+.line {
+    border: red dotted 2.5px;
+    width: 5px;
+    height: 5000px;
+    position: absolute;
+    left: 50%;
+}
+
+/* ### Style of HOME SECTION ### */
+
+#home {
+	width: 100%;
+	height: 100vh;
+	z-index: -1;
+	background-image: url('../images/background/home.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+.home-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home-logo {
+    position: absolute;
+    left: calc(50% - 137px);
+    margin-top: 20px;
+}
+
+.home-img {
+    width: 280px;
+    height: 200px;
+    display: inline-block;
+}
+
+.home-third {
+    width: 280px;
+}
+
+.home-item {
+    flex-grow: 0;
+    padding: 10px;
+    margin: 10px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 25%; /* 16:9 */
+	padding-top: 25px;
+    margin-top: 15%;
+    margin-bottom: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+	height: 0;
+
+    border: red dotted 15px;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+    width: 100%;
+	height: 100%;
+}
+/* ### TIMER CSS ### */
+.home-counter {
+    height: 65px;
+    padding:10px;
+    padding-top: 10px;
+    position: absolute;
 
 }
 
-.timer_div{
+.home-timer{
 	text-align: center;
-  font-family: sans-serif;
-  font-weight: 100;
+    font-family: sans-serif;
+    font-weight: 100;
 }
 
 
-#clockdiv{
+#home-clock{
 	font-family: sans-serif;
 	color: #fff;
 	display: inline-block;
@@ -22,51 +131,28 @@
 	font-size: 20px;
 }
 
-#clockdiv > div{
-	padding: 2px;
-	border-radius: 2px;
+#home-clock > div{
+	padding: 4px;
+	border-radius: 4px;
 	background: black;
 
 	display: inline-block;
 }
 
-#clockdiv div > span{
+#home-clock div > span{
 	padding: 3px;
-	border-radius: 2px;
-/*	background: #00816A;
-*/
+	border-radius: 4px;
+    /*	background: #00816A;
+    */
   display: inline-block;
 }
 
 .smalltext{
 	padding-top: 3px;
-	font-size: 15px;
+	font-size: 20px;
   background: black;
 }
 
-.container1{
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	background-image: url('../images/Stars2.jpg');
-	background-size: cover;
-	background-position: top center;
-	background-attachment: fixed;
+/* ### TIMER END ### */
 
-}
-
-.parallax{
-	background-attachment: fixed;
-}
-
-.row1-header {
-	margin: 15px;
-	text-align: center;
-}
-
-.logo-image {
-	height: 200px;
-	width: 280px;
-	display: inline-block;
-}
-
+/* ### HOME SECTION END ### */

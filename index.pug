@@ -1,0 +1,51 @@
+html(lang="en")
+    head
+        title Ingenuity 2017
+        link(href="./css/style.css" rel="stylesheet" type="text/css")
+        script(src="scripts/jquery.js" type="text/javascript")
+    body
+
+        nav
+            a(href="#home") HOME
+            a(href="#events") EVENTS
+            a(href="#about") ABOUT
+            a(href="#sponsor") SPONSOR
+            a(href="#contact") CONTACT
+
+        div.line
+        section#home
+            div.home-counter
+                div.home-timer
+                    div#home-clock
+                        div
+                            span.days
+                            div.smalltext Days
+                        div
+                            span.hours
+                            div.smalltext Hours
+                        div
+                            span.minutes
+                            div.smalltext Minutes
+                        div
+                            span.seconds
+                            div.smalltext Seconds
+            div.home-logo
+                img.home-img(src="./images/logo/logo_white.png" 
+                    alt="Ingenuity 2017 logo")
+            div.home-third.home-item
+            div
+                div.videoWrapper
+                    <iframe width="1024" height="720" src="https://www.youtube.com/embed/yPAf_UE4jks" frameborder="0" allowfullscreen></iframe>
+        section#buzz
+            div
+                <iframe src='https://www.juicer.io/api/feeds/news-feed-ingenuity/iframe' frameborder='0' width='300' height='700' style='display:block;'></iframe>
+
+
+        section#about
+        section#sponsor
+        section#contact
+
+
+
+    script(src="scripts/timer.js" type="text/javascript")
+    script(src="scripts/bootstrap.min.js" type="text/javascript")
