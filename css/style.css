@@ -9,6 +9,13 @@
 	text-align: center;
   font-family:  'Rubik', sans-serif;;
   font-weight: 100;
+  margin: auto;
+  padding-top: 50px;
+  padding-left: 75px;
+}
+
+.video-teaser{
+	padding-left: 70px;
 }
 
 
@@ -19,9 +26,7 @@
 	font-weight: 100;
 	text-align: center;
 	font-size: 40px;
-    
-    position:absolute; 
-    right:0; top:0;
+
 }
 
 #clockdiv > div{
