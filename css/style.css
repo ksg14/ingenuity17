@@ -3,30 +3,32 @@
   padding:10px;
   padding-top: 20px;
 
-
 }
 
 .timer_div{
 	text-align: center;
-  font-family: sans-serif;
+  font-family:  'Rubik', sans-serif;;
   font-weight: 100;
 }
 
 
 #clockdiv{
-	font-family: sans-serif;
+	font-family: 'Rubik', sans-serif;
 	color: #fff;
 	display: inline-block;
 	font-weight: 100;
 	text-align: center;
-	font-size: 20px;
+	font-size: 40px;
+    
+    position:absolute; 
+    right:0; top:0;
 }
 
 #clockdiv > div{
 	padding: 2px;
 	border-radius: 2px;
-	background: black;
-
+	/*background: black;
+*/
 	display: inline-block;
 }
 
@@ -41,7 +43,7 @@
 .smalltext{
 	padding-top: 3px;
 	font-size: 15px;
-  background: black;
+ /* background: black;*/
 }
 
 .container1{

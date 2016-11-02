@@ -1,4 +1,4 @@
-﻿@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
 
 
@@ -116,12 +116,21 @@ h2 {
 *******Event CSS******
 **************************/
 #event {
+    /*
   background-color: #33888F;
   background-image: url("../images/performar-bg.jpg");
   background-position: 50% 0;
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
+    */
+    width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-image: url('../images/performar-bg.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
 }
 
 
@@ -181,10 +190,14 @@ h2 {
 **************************/
 
 #about {
-  background-color: #75B46E;  
-  position: relative;  
   width: 100%;
-  display: flex;
+	height: 100%;
+	z-index: -1;
+	background-image: url('../images/Stars2.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+    padding-left: 25px;
 }
 
 .about-content {
@@ -228,12 +241,21 @@ h2 {
 **************************/
 
 #sponsor {
+    /*
   background-color: #1881a2;
   background-image: url("../images/sponsor-bg.jpg");
   background-position:50% 0;
   background-size: cover;
   background-repeat:no-repeat;
   position: relative;
+    */
+    width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-image: url('../images/sponsor-bg.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
 }
 
 .light {
@@ -292,12 +314,22 @@ h2 {
 **************************/
 
 .contact-section {
+    /*
   background-color: #f7ab24;
   background-image: url("../images/contact-bg.jpg");
   background-position:60% 0;
   background-size:contain;
   background-repeat:no-repeat;  
   position: relative;
+    */
+    position: relative;
+    width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-image: url('../images/contact-bg.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
 }
 
 .ear-piece {
