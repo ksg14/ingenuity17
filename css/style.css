@@ -56,6 +56,10 @@
 
 }
 
+.parallax{
+	background-attachment: fixed;
+}
+
 .row1-header {
 	margin: 15px;
 	text-align: center;
