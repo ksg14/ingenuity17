@@ -1,0 +1,119 @@
+
+.rightside {
+    width: 20px;
+    height: calc(100% - 70px);
+    position: fixed;
+    right: 11px;
+    top: 35px;
+    z-index: 101;
+    border-style: solid;
+    border-width: 12px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    -moz-border-image: url('../images/border/Star1.png') 12 100% repeat;
+    -webkit-border-image: url('../images/border/Star1.png') 12 100% repeat;
+    -o-border-image: url('../images/border/Star1.png') 12 100% repeat;
+    border-image: url('../images/border/Star1.png') 12 100% repeat;
+    
+}
+
+.leftside {
+    width: 20px;
+    height: calc(100% - 70px);
+    position: fixed;
+    left: 11px;
+    top: 35px;
+    z-index: 101;
+    border-style: solid;
+    border-width: 12px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    -moz-border-image: url('../images/border/Star1.png') 12 100% repeat;
+    -webkit-border-image: url('../images/border/Star1.png') 12 100% repeat;
+    -o-border-image: url('../images/border/Star1.png') 12 100% repeat;
+    border-image: url('../images/border/Star1.png') 12 100% repeat;
+    
+    
+}
+
+.topside {
+    width: calc(100% - 100px);
+    height: 15px;
+    position: fixed;
+    left: 42px;
+    top: 0px;
+    border-style: solid;
+    border-width: 12px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    -moz-border-image: url('../images/border/Star1.png') 12 100% repeat;
+    -webkit-border-image: url('../images/border/Star1.png') 12 100% repeat;
+    -o-border-image: url('../images/border/Star1.png') 12 100% repeat;
+    border-image: url('../images/border/Star1.png') 12 100% repeat;
+    z-index: 101;
+}
+
+.bottomside {
+    width: calc(100% - 84px);
+    height: 15px;
+    position: fixed;
+    left: 42px;
+    bottom: 0px;
+    border-style: solid;
+    border-width: 12px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    -moz-border-image: url('../images/border/Star1.png') 12 100% repeat;
+    -webkit-border-image: url('../images/border/Star1.png') 12 100% repeat;
+    -o-border-image: url('../images/border/Star1.png') 12 100% repeat;
+    border-image: url('../images/border/Star1.png') 12 100% repeat;
+    z-index: 101;
+}
+
+.startopleft {
+    position: fixed;
+    left: 15px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    background: url('../images/border/Star1.png');
+    background-size: cover;
+    z-index: 100;
+}
+
+.startopright {
+    position: fixed;
+    right: 15px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    background: url('../images/border/Star1.png');
+    background-size: cover;
+    z-index: 100;
+}
+
+.starbottomleft {
+    position: fixed;
+    left: 15px;
+    bottom: 10px;
+    width: 20px;
+    height: 20px;
+    background: url('../images/border/Star1.png');
+    background-size: cover;
+    z-index: 100;
+}
+
+.starbottomright {
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    width: 20px;
+    height: 20px;
+    background: url('../images/border/Star1.png');
+    background-size: cover;
+    z-index: 100;
+}
