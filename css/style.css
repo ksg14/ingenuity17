@@ -1,0 +1,82 @@
+
+
+.row-header{
+  height: 200px;
+  padding:10px;
+  padding-top: 20px;
+
+}
+
+.timer_div{
+	text-align: center;
+  font-family:  'Rubik', sans-serif;;
+  font-weight: 100;
+  margin: auto;
+  /*padding-top: 50px;
+  padding-left: 75px;*/
+}
+
+.video-teaser{
+	/*
+	padding-left: 70px;
+	*/
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-bottom: 2em;
+}
+
+
+#clockdiv{
+	font-family: 'Rubik', sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 2em;
+
+}
+
+#clockdiv > div{
+	padding: 2px;
+	border-radius: 2px;
+	/*background: black;
+*/
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 3px;
+	border-radius: 2px;
+/*	background: #00816A;
+*/
+  display: inline-block;
+}
+
+.smalltext{
+	padding-top: 3px;
+	font-size: 0.5em;
+ /* background: black;*/
+}
+
+.container1{
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-image: url('../images/Stars2.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+
+}
+
+.row1-header {
+	margin: 15px;
+	text-align: center;
+}
+
+.logo-image {
+	height: 200px;
+	width: 280px;
+	display: inline-block;
+}
+
