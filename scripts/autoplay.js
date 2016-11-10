@@ -1,12 +1,14 @@
 
+
 setTimeout(function(){
     document.getElementById("teaser_video").play();
-}, 2000);
-
+}, 3000);
 /*
-var vid = document.getElementById("teaser_video");
 
-function enableAutoplay() { 
+var vid = document.getElementById("teaser_video");
+vid.pause();
+
+/*function enableAutoplay() { 
     vid.autoplay = false;
 
     setTimeout(function(){
