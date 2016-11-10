@@ -1,3 +1,5 @@
+
+
 .row-header{
   height: 200px;
   padding:10px;
@@ -10,12 +12,17 @@
   font-family:  'Rubik', sans-serif;;
   font-weight: 100;
   margin: auto;
-  padding-top: 50px;
-  padding-left: 75px;
+  /*padding-top: 50px;
+  padding-left: 75px;*/
 }
 
 .video-teaser{
+	/*
 	padding-left: 70px;
+	*/
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-bottom: 2em;
 }
 
 
@@ -25,7 +32,7 @@
 	display: inline-block;
 	font-weight: 100;
 	text-align: center;
-	font-size: 40px;
+	font-size: 2em;
 
 }
 
@@ -47,7 +54,7 @@
 
 .smalltext{
 	padding-top: 3px;
-	font-size: 15px;
+	font-size: 0.5em;
  /* background: black;*/
 }
 
